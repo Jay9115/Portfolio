@@ -164,7 +164,7 @@ function App() {
               </h2>
               <p className="text-lg md:text-xl mb-12 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
                 Third-year Computer Science student at Charotar University of Science and Technology (CHARUSAT)
-                with expertise in full-stack development, machine learning, and mobile app development.
+                with experience in full-stack development, machine learning, and mobile app development.
                 Passionate about creating innovative solutions and contributing to open-source projects.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -197,7 +197,7 @@ function App() {
               <div className="space-y-6">
                 <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                   I'm a third-year Computer Engineering student at CHARUSAT with a passion for creating 
-                  innovative technology solutions. My expertise spans full-stack development, machine learning, 
+                  innovative technology solutions. My experience spans full-stack development, machine learning, 
                   and mobile application development, with hands-on experience in modern frameworks and tools.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
