@@ -58,7 +58,7 @@ function App() {
     {
       title: 'FusionAll',
       description: 'Built a collaborative learning platform using Firebase and React.js, featuring real-time chat, group discussions, file sharing, and a blogging system to enhance peer-to-peer learning.',
-      tech: ['Firebase', 'React.js'],
+      tech: ['Firebase', 'React.js','Node.js'],
       live: 'https://fusionall.vercel.app',
       image: '/f.png'
     },
