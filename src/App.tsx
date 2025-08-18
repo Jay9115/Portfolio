@@ -56,6 +56,13 @@ function App() {
 
   const projects = [
     {
+      title: 'Event Management Platform',
+      description: 'Developed a web and mobile platform for university fest/event management using ASP.NET Core and AWS tools, enabling seamless event registration, QR-based attendance tracking, real-time communication, and efficient archival of past events.',
+      tech: ['ASP.NET Core', 'AWS'],
+      live: 'https://evntset-web.vercel.app',
+      image: '/e.png'
+    },
+    {
       title: 'FusionAll',
       description: 'Built a collaborative learning platform using Firebase and React.js, featuring real-time chat, group discussions, file sharing, and a blogging system to enhance peer-to-peer learning.',
       tech: ['Firebase', 'React.js','Node.js'],
@@ -68,14 +75,8 @@ function App() {
       tech: ['Unity', 'Blender', 'Metashape', 'C#'],
       live: 'https://Visioneers.vercel.app',
       image: '/v.png'
-    },
-    {
-      title: 'Event Management Platform',
-      description: 'Developed a web and mobile platform for university fest/event management using ASP.NET Core and AWS tools, enabling seamless event registration, QR-based attendance tracking, real-time communication, and efficient archival of past events.',
-      tech: ['ASP.NET Core', 'AWS'],
-      live: 'https://evntset-web.vercel.app',
-      image: '/e.png'
     }
+    
   ];
 
   return (
