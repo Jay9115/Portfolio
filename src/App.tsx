@@ -44,10 +44,10 @@ function App() {
   ];
 
   const skills = [
-    { name: 'c++', icon: Code },
+    { name: 'C++', icon: Code },
     { name: 'Python', icon: Code },
     { name: 'JavaScript', icon: Code },
-    { name: 'React', icon: Globe },
+    { name: 'React', icon: Globe }, 
     { name: 'Node.js', icon: Terminal },
     { name: 'AWS', icon: Database },
     { name: 'Machine Learning', icon: Brain },
@@ -56,28 +56,25 @@ function App() {
 
   const projects = [
     {
-      title: 'DeepFake Detection System',
-      description: 'Advanced machine learning model for detecting deepfake videos and images using convolutional neural networks and ensemble methods.',
-      tech: ['Python', 'TensorFlow', 'OpenCV', 'Flask'],
-      github: 'https://github.com/Jay9115/deepfake-detection',
-      live: 'https://deepfake-detector.vercel.app',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title: 'FusionAll',
+      description: 'Built a collaborative learning platform using Firebase and React.js, featuring real-time chat, group discussions, file sharing, and a blogging system to enhance peer-to-peer learning.',
+      tech: ['Firebase', 'React.js'],
+      live: 'https://fusionall.vercel.app',
+      image: '/f.png'
     },
     {
-      title: 'Full-Stack Portfolio Website',
-      description: 'Modern responsive portfolio website built with React, Node.js, and MongoDB featuring dark mode, animations, and contact form.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-      github: 'https://github.com/Jay9115/portfolio',
-      live: 'https://jaypatel-portfolio.vercel.app',
-      image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title: 'Cultural India',
+      description: 'Designed an interactive website showcasing Indian heritage and culture, featuring a festival/heritage map and immersive virtual tours of monuments, using Unity, Blender, Metashape, and C#.',
+      tech: ['Unity', 'Blender', 'Metashape', 'C#'],
+      live: 'https://Visioneers.vercel.app',
+      image: '/v.png'
     },
     {
-      title: 'Mobile Weather App',
-      description: 'Flutter-based mobile application providing real-time weather updates with location-based forecasts and beautiful UI animations.',
-      tech: ['Flutter', 'Dart', 'OpenWeather API', 'SQLite'],
-      github: 'https://github.com/Jay9115/flutter-weather',
-      live: 'https://play.google.com/store/apps/details?id=com.jaypatel.weather',
-      image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title: 'Event Management Platform',
+      description: 'Developed a web and mobile platform for university fest/event management using ASP.NET Core and AWS tools, enabling seamless event registration, QR-based attendance tracking, real-time communication, and efficient archival of past events.',
+      tech: ['ASP.NET Core', 'AWS'],
+      live: 'https://evntset-web.vercel.app',
+      image: '/e.png'
     }
   ];
 
@@ -168,12 +165,12 @@ function App() {
                 Passionate about creating innovative solutions and contributing to open-source projects.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  {/* <button
+                  <button
                     onClick={() => scrollToSection('projects')}
                     className="px-8 py-4 bg-gradient-to-r from-blue-600/80 to-purple-600/80 text-white rounded-full font-semibold hover:shadow-2xl hover:from-blue-700/90 hover:to-purple-700/90 transform hover:scale-110 transition-all duration-300 backdrop-blur-xl border border-white/20 dark:border-gray-700/20 hover:border-white/40 dark:hover:border-gray-600/40"
                   >
                     View My Work
-                  </button> */}
+                  </button>
                 <button onClick={() => window.open("/Resume.pdf", "_blank")} className="px-8 py-4 bg-white/10 dark:bg-gray-800/10 border border-blue-600/50 dark:border-blue-400/50 text-blue-600 dark:text-blue-400 rounded-full font-semibold hover:bg-blue-600/20 hover:text-blue-700 dark:hover:bg-blue-400/20 dark:hover:text-blue-300 hover:shadow-xl transition-all duration-300 flex items-center gap-2 backdrop-blur-xl hover:scale-110 hover:border-blue-600/70 dark:hover:border-blue-400/70">
                   <Download size={18} />
                   See Resume
@@ -258,7 +255,7 @@ function App() {
         </section>
 
         {/* Projects Section */}
-        {/* <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
+        <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -314,7 +311,7 @@ function App() {
               ))}
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* Experience Section */}
         {/* <section id="experience" className="py-20">
